@@ -1,6 +1,5 @@
 $(window).on('load', function () {
     // Initialize features
-    initializePwaFeatures();
     initializeGoogleAnalytics();
     initializeProjectFilter();
 });
