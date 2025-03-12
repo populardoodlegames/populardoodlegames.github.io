@@ -9,14 +9,14 @@ $(window).on('load', function () {
 function initializeGoogleAnalytics() {
     const googleAnalyticsScript = document.createElement('script');
     googleAnalyticsScript.async = true;
-    googleAnalyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-6BPGNZNTLZ";
+    googleAnalyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-GCGGVK4RPZ";
     document.head.appendChild(googleAnalyticsScript);
 
     googleAnalyticsScript.onload = function () {
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-6BPGNZNTLZ');
+        gtag('config', 'G-GCGGVK4RPZ');
         console.log('Google Analytics initialized.');
     };
 }
